@@ -66,13 +66,14 @@ p {
   font-weight: normal;
   color: rgba(0, 190, 130, 0.5);
   z-index: 100;
+  transform-origin: center;
 }
 
 p:hover {
-  transform-origin: center;
-  transform:  scale(1.6);
+  /* transform:  scale(1.6); */
   color: rgba(0, 190, 130, 1);
   z-index: 101;
+  visibility: visible !important;
 }
 
 /*div, p {
